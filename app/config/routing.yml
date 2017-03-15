@@ -1,3 +1,7 @@
+envent:
+    resource: "@EnventBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
